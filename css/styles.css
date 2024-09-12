@@ -16,7 +16,7 @@ a {
   text-decoration: none;
 }
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -28,7 +28,7 @@ a {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 /* ******************************************************* */
 
@@ -69,12 +69,15 @@ a {
   color: #404bbf;
 }
 
+.header-adr {
+  font-style: normal;
+}
+
 .header-adr-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  font-style: normal;
 }
 
 .header-adr-item:hover,
@@ -146,6 +149,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .team-item {
@@ -173,6 +177,7 @@ a {
 /* ****************** Our portfolio section *************** */
 
 .portfolio-caption {
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
